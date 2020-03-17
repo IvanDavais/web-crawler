@@ -3,6 +3,7 @@ import json
 import sys
 
 class BaiduTranslate:
+    """ 该方法已不再使用，因为手机版和电脑版的百度翻译俊加入了sign值 """
     def __init__(self, trans_str):
         self.trans_str = trans_str
         self.lang_detect_url = "https://fanyi.baidu.com/langdetect"
